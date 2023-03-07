@@ -1,3 +1,3 @@
 window.onload = () => {
-  // TODO
+  YaSendSuggestToken("https://yandex-oauth.vercel.app/");
 };
