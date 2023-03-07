@@ -29,6 +29,8 @@
 }
 
 .buttonsContainer {
-  margin-top: 8px;
   width: 300px;
+  position: absolute;
+  top: 30px; 
+  left: 30px;
 }
