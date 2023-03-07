@@ -38,11 +38,11 @@ window.onload = () => {
   document.getElementById("button").onclick = () => {
     window.YaAuthSuggest.init(
       {
-        client_id: "c46f0c53093440c39f12eff95a9f2f93",
+        client_id: "3fdf55bd952145a3b246ace3328edd16",
         response_type: "token",
-        redirect_uri: "https://oauth-master-class-lake.vercel.app/token.html",
+        redirect_uri: "https://yandex-oauth.vercel.app/token.html",
       },
-      "https://oauth-master-class-lake.vercel.app",
+      "https://yandex-oauth.vercel.app/",
       {
         parentId: "buttonContainer",
         view: "button",
