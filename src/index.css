@@ -32,10 +32,7 @@
 .buttons {
   display: flex;
   margin-top: 8px;
-}
-
-#suggest {
-  margin-right: 8px;
+  gap: 18px;
 }
 
 .buttonsContainer {

@@ -62,3 +62,8 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
 };
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const code = urlParams.get('code')
+code ? window.alert(`Получен код: ${code}`) : console.log('Код авторизации не получен');
